@@ -1528,7 +1528,7 @@ class ReactImageLightbox extends Component {
                                 <button // Lightbox close button
                                     type="button"
                                     key="close"
-                                    className={'close ril-close ril-toolbar__item__child' +
+                                    className={'ril-close ril-toolbar__item__child' +
                                         ` ${styles.toolbarItemChild} ${styles.builtinButton} ${styles.closeButton}`
                                     }
                                     onClick={!this.isAnimating() ? this.requestClose : noop} // Ignore clicks during animation

@@ -1,6 +1,6 @@
 {
-  "name": "react-image-lightbox",
-  "version": "3.4.2",
+  "name": "react-image-lightbox-sean",
+  "version": "1.0.7",
   "description": "A lightbox component for React.js",
   "scripts": {
     "build": "npm run lint && npm run build:demo && npm run build:umd",
@@ -17,11 +17,13 @@
   },
   "main": "dist/umd/react-image-lightbox.js",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "svg"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fritz-c/react-image-lightbox.git"
+    "url": "https://github.com/sean-johnson/react-image-lightbox.git"
   },
   "homepage": "https://fritz-c.github.io/react-image-lightbox",
   "bugs": "https://github.com/fritz-c/react-image-lightbox/issues",
